@@ -1,6 +1,6 @@
 # Bada-Boom
 Beat Em' Up I worked on for Game Development I
-Game Code Written by Luis Rangel and Alfredo Deleon
+Game Code Written by Luis Rangel (luisrangel.person@gmail.com) and Alfredo Deleon
 Original Engine written by Dr. Ian Parberry
 Game made for 4210-Game Developent I at the University of North Texas
 
