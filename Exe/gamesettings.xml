@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Settings for Bada-Boom! -->
+
+<settings>
+
+  <!-- general settings -->
+
+  <game name="Bada-Boom!! Alpha"/>
+
+  <!-- renderer settings -->
+
+  <renderer width="1024" height="768" shadermodel="5_0"/>
+
+  <!-- image file names -->
+
+  <images>
+    <image src="Images\sky.png"/>
+    <image src="Images\ground.bmp"/>
+    <image src="Images\black.png"/>
+  </images>
+  
+  <!-- sprites -->
+  
+  <sprites>
+    <!--Luis-Logo Screen Stuff-->
+    <sprite name="logo" file="Images\BB_Logo" ext="png" frames="1"/>
+    <sprite name="gameover" file="Images\BB_GameOver" ext="png" frames="1"/>
+    <!--Alfredo- Speech Boxes-->
+    <sprite name="bossbullscreen" file="Images\bossbullscreen" ext="png" frames="1"/>
+    <sprite name="bossbullwinscreen" file="Images\bossbullwinscreen" ext="png" frames="1"/>
+    <!--Luis-Gator Sprites-->
+    <sprite name="gator" file="Images\Gator\BB_Gator" ext="png" frames="2"/>
+    <sprite name="gatorwalkleft" file="Images\Gator\BB_GatorWalkLeft" ext="png" frames="2"/>
+    <sprite name="gatorwalkright" file="Images\Gator\BB_GatorWalkRight" ext="png" frames="2"/>
+    <sprite name="gatorleft" file="Images\Gator\BB_GatorLeft" ext="png" frames="2"/>
+    <sprite name="gatorcheer" file="Images\Gator\BB_GatorCheer" ext="png" frames="2"/>
+    <sprite name="gatorcheerleft" file="Images\Gator\BB_GatorCheerLeft" ext="png" frames="2"/>
+    <sprite name="gatorhurt" file="Images\Gator\BB_GatorHurt" ext="png" frames="2"/>
+    <sprite name="gatorhurtleft" file="Images\Gator\BB_GatorHurtLeft" ext="png" frames="2"/>
+    <sprite name="star" file="Images\Attacks\BB_Star" ext="png" frames="1"/>
+    <!--Alfredo-Gorilla Sprite to test Enemy AI-->
+    <!--Sprite Sheet Source: http://spritedatabase.net/file/28 -->
+    <sprite name="gorilla" file="Images\Gorilla\gorilla" ext="png" frames="4"/>
+    <sprite name="gorilladownedleft" file="Images\Gorilla\gorilladownedleft" ext="png" frames="4"/>
+    <sprite name="gorilladownedright" file="Images\Gorilla\gorilladownedright" ext="png" frames="4"/>
+    <sprite name="deadgorilla" file="Images\Gorilla\deadgorilla" ext="png" frames="4"/>
+    <sprite name="madgorillaleft" file="Images\Gorilla\madgorillaleft" ext="png" frames="5"/> <!--Alfredo- Mad gorilla for testing damage animation-->
+    <sprite name="madgorillaright" file="Images\Gorilla\madgorillaright" ext="png" frames="5"/> 
+    <sprite name="gorillaattackleft" file="Images\Gorilla\gorillaattackleft" ext="png" frames="6"/> <!--Alfredo- Attacking gorilla for testing attacking animation-->
+    <sprite name="gorillaattackright" file="Images\Gorilla\gorillaattackright" ext="png" frames="6"/> 
+    <sprite name="gorillawalkleft" file="Images\Gorilla\gorillawalkleft" ext="png" frames="6"/> 
+    <sprite name="gorillawalkright" file="Images\Gorilla\gorillawalkright" ext="png" frames="6"/> 
+    <sprite name="gorillablockright" file="Images\Gorilla\gorillablockright" ext="png" frames="6"/> 
+    <sprite name="gorillablockleft" file="Images\Gorilla\gorillablockleft" ext="png" frames="6"/>
+
+    <!--Alfredo-Champion Gorilla Sprite to test Enemy AI-->
+    <!--Sprite Sheet Source: http://spritedatabase.net/file/28 -->
+    <sprite name="championgorilla" file="Images\Gorilla\Champion\championgorilla" ext="png" frames="3"/>
+    <sprite name="championgorilladownedleft" file="Images\Gorilla\Champion\championgorilladownedleft" ext="png" frames="4"/>
+    <sprite name="championgorilladownedright" file="Images\Gorilla\Champion\championgorilladownedright" ext="png" frames="4"/>
+    <sprite name="championdeadgorilla" file="Images\Gorilla\Champion\championdeadgorilla" ext="png" frames="3"/>
+    <sprite name="championmadgorillaleft" file="Images\Gorilla\Champion\championmadgorillaleft" ext="png" frames="5"/>
+    <!--Alfredo- Mad gorilla for testing damage animation-->
+    <sprite name="championmadgorillaright" file="Images\Gorilla\Champion\championmadgorillaright" ext="png" frames="5"/>
+    <sprite name="championgorillaattackleft" file="Images\Gorilla\Champion\championgorillaattackleft" ext="png" frames="6"/>
+    <!--Alfredo- Attacking gorilla for testing attacking animation-->
+    <sprite name="championgorillaattackright" file="Images\Gorilla\Champion\championgorillaattackright" ext="png" frames="6"/>
+    <sprite name="championgorillawalkleft" file="Images\Gorilla\Champion\championgorillawalkingleft" ext="png" frames="6"/>
+    <sprite name="championgorillawalkright" file="Images\Gorilla\Champion\championgorillawalkingright" ext="png" frames="6"/>
+    <sprite name="championgorillablockright" file="Images\Gorilla\Champion\championgorillablockright" ext="png" frames="6"/>
+    <sprite name="championgorillablockleft" file="Images\Gorilla\Champion\championgorillablockleft" ext="png" frames="6"/>
+    
+    <!--Alfredo- Horse Enemy Sprites-->
+    <!--Sprite Sheet Source: http://spritedatabase.net/file/20905-->
+    <sprite name="horse" file="Images\Horse\horse" ext="png" frames="3"/>
+    <!--Horse Walking-->
+    <sprite name="horsewalkleft" file="Images\Horse\horsewalkleft" ext="png" frames="6"/>
+    <sprite name="horsewalkright" file="Images\Horse\horsewalkright" ext="png" frames="6"/>
+    <!--Horse Mad-->
+    <sprite name="horsemadleft" file="Images\Horse\horsemadleft" ext="png" frames="5"/>
+    <sprite name="horsemadright" file="Images\Horse\horsemadright" ext="png" frames="5"/>    
+    <!--Horse Dead-->
+    <sprite name="horsedead" file="Images\Horse\horsedead" ext="png" frames="3"/>
+    <!--Horse Run-->
+    <sprite name="horserunleft" file="Images\Horse\horserunleft" ext="png" frames="6"/>
+    <sprite name="horserunright" file="Images\Horse\horserunright" ext="png" frames="6"/>
+    <!--Horse Stop-->
+    <sprite name="horsestopleft" file="Images\Horse\horsestopleft" ext="png" frames="12"/>
+    <sprite name="horsestopright" file="Images\Horse\horsestopright" ext="png" frames="12"/>
+    
+    <!--Alfredo- Rhino Enemy-->
+    <sprite name="rhino" file="Images\Rhino\rhino" ext="png" frames="3"/>
+    <sprite name="rhinoattackleft" file="Images\Rhino\rhinoattackleft" ext="png" frames="10"/>
+    <sprite name="rhinoattackright" file="Images\Rhino\rhinoattackright" ext="png" frames="10"/>
+    <sprite name="rhinodownedleft" file="Images\Rhino\rhinodownedleft" ext="png" frames="5"/>
+    <sprite name="rhinodownedright" file="Images\Rhino\rhinodownedright" ext="png" frames="5"/>
+    <sprite name="rhinodead" file="Images\Rhino\rhinodead" ext="png" frames="3"/>
+    <sprite name="rhinohurtleft" file="Images\Rhino\rhinohurtleft" ext="png" frames="6"/>
+    <sprite name="rhinohurtright" file="Images\Rhino\rhinohurtright" ext="png" frames="6"/>
+    <sprite name="rhinorunleft" file="Images\Rhino\rhinorunleft" ext="png" frames="8"/>
+    <sprite name="rhinorunright" file="Images\Rhino\rhinorunright" ext="png" frames="8"/>
+    <!--Alfredo-Dog Sprite for Enemy AI-->
+    <!--Sprite Sheet Source: http://spritedatabase.net/file/4040 -->
+    <sprite name="dog" file="Images\Dog\dog" ext="png" frames="3"/> 
+    <sprite name="dogwalkingleft" file="Images\Dog\dogwalkingleft" ext="png" frames="5"/>
+    <sprite name="dogwalkingright" file="Images\Dog\dogwalkingright" ext="png" frames="5"/>  
+    <sprite name="dogmadleft" file="Images\Dog\dogmadleft" ext="png" frames="3"/>
+    <sprite name="dogmadright" file="Images\Dog\dogmadright" ext="png" frames="3"/>    
+    <sprite name="dogdownedleft" file="Images\Dog\dogdownedleft" ext="png" frames="7"/>
+    <sprite name="dogdownedright" file="Images\Dog\dogdownedright" ext="png" frames="7"/>
+    <sprite name="dogdead" file="Images\Dog\dogdead" ext="png" frames="3"/>
+    <sprite name="dogattackleft" file="Images\Dog\dogattackleft" ext="png" frames="5"/>
+    <sprite name="dogattackright" file="Images\Dog\dogattackright" ext="png" frames="5"/>
+
+    <!--Alfredo-Dog Champion Sprite for Enemy AI-->
+    <!--Sprite Sheet Source: http://spritedatabase.net/file/4040 -->
+    <sprite name="championdog" file="Images\Dog\Champion\championdog" ext="png" frames="3"/>
+    <sprite name="championdogwalkingleft" file="Images\Dog\Champion\championdogwalkingleft" ext="png" frames="5"/>
+    <sprite name="championdogwalkingright" file="Images\Dog\Champion\championdogwalkingright" ext="png" frames="5"/>
+    <sprite name="championdogmadleft" file="Images\Dog\Champion\championdogbarkingleft" ext="png" frames="3"/>
+    <sprite name="championdogmadright" file="Images\Dog\Champion\championdogbarkingright" ext="png" frames="3"/>
+    <sprite name="championdogdownedleft" file="Images\Dog\Champion\championdogdownedleft" ext="png" frames="7"/>
+    <sprite name="championdogdownedright" file="Images\Dog\Champion\championdogdownedright" ext="png" frames="7"/>
+    <sprite name="championdogdead" file="Images\Dog\Champion\championdogdead" ext="png" frames="3"/>
+    <sprite name="championdogattackleft" file="Images\Dog\Champion\championdogattackleft" ext="png" frames="5"/>
+    <sprite name="championdogattackright" file="Images\Dog\Champion\championdogattackright" ext="png" frames="5"/>
+    <!--Alfredo-Boss Bull for Enemy AI-->
+    <sprite name="bossbull" file="Images\BossBull\bossbull" ext="png" frames="3"/>
+    <sprite name="bossbullleft" file="Images\BossBull\bossbullleft" ext="png" frames="3"/>
+    <sprite name="bossbullchargeleft" file="Images\BossBull\bossbullchargeleft" ext="png" frames="3"/>
+    <sprite name="bossbullchargeright" file="Images\BossBull\bossbullchargeright" ext="png" frames="3"/>
+    <sprite name="bossbullhurtleft" file="Images\BossBull\bossbullhurtleft" ext="png" frames="3"/>
+    <sprite name="bossbullhurtright" file="Images\BossBull\bossbullhurtright" ext="png" frames="3"/>
+    <sprite name="bossbulldownedleft" file="Images\BossBull\bossbulldownedleft" ext="png" frames="7"/>
+    <sprite name="bossbulldownedright" file="Images\BossBull\bossbulldownedright" ext="png" frames="7"/>
+    <sprite name="bossbulldeadleft" file="Images\BossBull\bossbulldeadleft" ext="png" frames="3"/>
+    <sprite name="bossbulldeadright" file="Images\BossBull\bossbulldeadright" ext="png" frames="3"/>
+    
+    <!--Alfredo- Furniture -->
+    <sprite name="watercooler" file="Images\Furniture\watercooler" ext="PNG" frames="1"/>
+    <sprite name="pottedplant" file="Images\Furniture\pottedplant" ext="png" frames="1"/>
+    <sprite name="vendingmachine" file="Images\Furniture\vendingmachine" ext="png" frames="1"/>
+    <sprite name="deskhorizontal" file="Images\Furniture\deskhorizontal" ext="png" frames="1"/>
+    
+    <!--Alfredo- Furniture Explosions-->
+    <!--Source: http://opengameart.org/content/explosion-animations -->
+    <sprite name="deskexplosion" file="Images\Furniture\deskexplosion" ext="png" frames="10"/>
+    <sprite name="watercoolerexplosion" file="Images\Furniture\watercoolerexplosion" ext="png" frames="11"/>
+    <sprite name="pottedplantexplosion" file="Images\Furniture\pottedplantexplosion" ext="png" frames="9"/>
+    
+    <!--Alfredo- Power ups-->
+    <sprite name="healthsoda" file="Images\PowerUps\healthsoda" ext="PNG" frames="1"/>
+    <sprite name="strengthsoda" file="Images\PowerUps\strengthsoda" ext="PNG" frames="1"/>
+    
+    <!--Alfredo- Money Bag-->
+    <!--Source: http://makepixelart.com/artists/anonymous/money-bag_5 -->
+    <sprite name="moneybag" file="Images\moneybag" ext="PNG" frames="1"/>
+    
+    <!--Luis-Attack Sprites-->
+    <sprite name="punch" file="Images\Attacks\BB_Punch" ext="png" frames="1"/>
+    <sprite name="punchanimationright" file="Images\Attacks\BB_PunchAnimatoionRight" ext="png" frames="1"/>
+    <sprite name="punchleft" file="Images\Attacks\BB_PunchLeft" ext="png" frames="1"/>
+    <sprite name="punchanimationleft" file="Images\Attacks\BB_PunchAnimationLeft" ext="png" frames="1"/>
+    <!--Source of flame behind punch: http://piq.codeus.net/static/media/userpics/piq_62320_400x400.png -->
+    <sprite name="punchanimationfireleft" file="Images\Attacks\BB_PunchAnimationFireLeft" ext="png" frames="1"/>
+    <sprite name="punchanimationfireright" file="Images\Attacks\BB_PunchAnimationFireRight" ext="png" frames="1"/>
+    <!--Luis-These are the Tiles for the Random Level Generator-->
+    <sprite name="carpet" file="Images\x2_Tiles\BB_Carpet" ext="png" frames="1"/>
+    <sprite name="window" file="Images\x2_Tiles\BB_BkWindow" ext="png" frames="1"/>
+    <sprite name="endwall"  file="Images\x2_Tiles\BB_EndWall"  ext="png" frames="1"/>
+    <sprite name="dummywall"  file="Images\x2_Tiles\BB_Dummywall"  ext="png" frames="1"/>
+    <sprite name="elevator" file="Images\x2_Tiles\BB_Elevator" ext="png" frames="1"/>
+    <sprite name="elevatorin" file="Images\x2_Tiles\BB_ElevatorIn" ext="png" frames="1"/>
+    <sprite name="elevatoren" file="Images\x2_Tiles\BB_ElevatorEn" ext="png" frames="1"/>
+    <sprite name="elevatorwall" file="Images\x2_Tiles\BB_ElevatorWall" ext="png" frames="1"/>
+    <sprite name="deskprint"  file="Images\x2_Tiles\BB_DeskPrint" ext="png" frames="1"/>
+    <sprite name="outlet" file="Images\x2_Tiles\BB_OutletWall" ext="png" frames="1"/>
+    <sprite name="dogpost"  file="Images\x2_Tiles\BB_DogPost"  ext="png" frames="1"/>
+    <sprite name="catpost"  file="Images\x2_Tiles\BB_CatPost"  ext="png" frames="1"/>
+    <sprite name="horsepost"  file="Images\x2_Tiles\BB_HorsePost"  ext="png" frames="1"/>
+    <sprite name="rhinopost"  file="Images\x2_Tiles\BB_RhinoPost"  ext="png" frames="1"/>
+    <sprite name="breakfloorA"  file="Images\x2_Tiles\BB_BrkRmA" ext="png" frames="1"/>
+    <sprite name="plantpost"  file="Images\x2_Tiles\BB_PlantPost"  ext="png" frames="1"/>
+    <sprite name="void"  file="Images\x2_Tiles\BB_BigVoid"  ext="png" frames="1"/>
+    <sprite name="block"  file="Images\x2_Tiles\BB_Block"  ext="png" frames="1"/>
+    <sprite name="widevoid"  file="Images\x2_Tiles\BB_BigVoid"  ext="png" frames="1"/>
+    <sprite name="roof"  file="Images\x2_Tiles\BB_Roof"  ext="png" frames="1"/>
+    <!--Luis-Special ALSQ Tiles-->
+    <sprite name="woodwall" file="Images\x2_Tiles\BB_WoodWall"  ext="png" frames="1"/>
+    <sprite name="ringfloor" file="Images\x2_Tiles\BB_RingFloor" ext="png" frames="1"/>
+    <sprite name="goldcarpet" file="Images\x2_Tiles\BB_GoldCarpet" ext="png" frames="1"/>
+    <sprite name="goldwindow" file="Images\x2_Tiles\BB_GoldWindow" ext="png" frames="1"/>
+    <sprite name="goldoutlet" file="Images\x2_Tiles\BB_GoldOutlet" ext="png" frames="1"/>
+    <sprite name="goldplantpost"  file="Images\x2_Tiles\BB_GoldPlantPost"  ext="png" frames="1"/>
+    <!--Luis-HUD Sprites-->
+    <sprite name="hud"  file="Images\BB_HUDDisplay" ext="png" frames="1"/>
+    <!--Misc Sprites-->
+    <sprite name="crow" file="Images\crow" ext="png" frames="4"/>
+    <sprite name="explodingcrow" file="Images\crowex" ext="png" frames="3"/>
+    <sprite name="deadcrow" file="Images\crowdead" ext="png" frames="1"/>
+    <sprite name="bullet" file="Images\bullet" ext="png" frames="1"/>
+    <sprite name="horseattack" file="Images\horseattack" ext="png" frames="1"/>
+    <sprite name="bossbullattackleft" file="Images\bossbullattackleft" ext="png" frames="1"/>
+    <sprite name="bossbullattackright" file="Images\bossbullattackright" ext="png" frames="1"/>
+  </sprites>
+
+  <!-- objects-->
+
+  <objects>
+    <object name="gator"
+      minxspeed="-10" maxxspeed="10" 
+      minyspeed="-4" maxyspeed="4" 
+      frameinterval="100"
+      fly="1"
+      cycle="1"
+      animation="0,1"
+    />
+
+    <object name="crow"
+      minxspeed="-4" maxxspeed="-1" 
+      minyspeed="-1" maxyspeed="1" 
+      frameinterval="250" 
+      vulnerable="1"
+      fly="1"
+      cycle="1"
+      animation="0,1,2,3,2,1"
+    />
+    <!--Alfredo-Gorilla object for testing AI-->
+    <object name="gorilla"
+            minxspeed="-4" maxxspeed="-1" 
+            minyspeed="-1" maxyspeed="1" 
+            frameinterval="250"
+            vulnerable="1"
+            fly="1"
+            cycle="1"
+            animation="0,1,2,3"
+    />
+    <!--Alfredo-Dog object for Enemy AI-->
+    <object name="dog"
+            minxspeed="-9" maxxspeed="-6"
+            minyspeed="-5" maxyspeed="5"
+            frameinterval="400"
+            vulnerable="1"
+            fly="1"
+            cycle="1"
+            animation="0,1,2"
+    />
+
+    <!--Alfredo-Dog object for Enemy AI-->
+    <object name="horse"
+            minxspeed="-9" maxxspeed="-6"
+            minyspeed="-5" maxyspeed="5"
+            frameinterval="400"
+            vulnerable="1"
+            fly="1"
+            cycle="1"
+            animation="0,1,2"
+    />
+
+    <!--Alfredo-Dog object for Enemy AI-->
+    <object name="rhino"
+            minxspeed="-9" maxxspeed="-6"
+            minyspeed="-5" maxyspeed="5"
+            frameinterval="400"
+            vulnerable="1"
+            fly="1"
+            cycle="1"
+            animation="0,1,2"
+    />
+    <!--Alfredo-Boss bull object for Enemy AI-->
+    <object name="bossbull"
+            minxspeed="-9" maxxspeed="-6"
+            minyspeed="-5" maxyspeed="5"
+            frameinterval="400"
+            vulnerable="1"
+            fly="1"
+            cycle="1"
+            animation="0,1,2"
+    />
+    
+    <!--Luis-BB_RLG Tile Objects, limetime is -1000 for easy deletion-->
+    <object name="carpet" lifetime="-1000" grounded="1"/>
+    <object name="window" lifetime="-1000" grounded="1"/>
+    <object name="endwall" lifetime="-1000" grounded="1"/>
+    <object name="elevator" lifetime="-1000" grounded="1"/>
+    <object name="elevatoren" lifetime="-1000" grounded="1"/>
+    <object name="elevatorwall" lifetime="-1000" grounded="0"/>
+    <object name="block" lifetime="-1000" grounded="0"/>
+    <object name="deskprint" lifetime="-1000" grounded="1"/>
+    <object name="outlet" lifetime="-1000" grounded="1"/>
+    <object name="dogpost" lifetime="-1000" grounded="1"/>
+    <object name="catpost" lifetime="-1000" grounded="1"/>
+    <object name="horsepost" lifetime="-1000" grounded="1"/>
+    <object name="rhinopost" lifetime="-1000" grounded="1"/>
+    <object name="breakfloorA"  lifetime="-1000" grounded="1"/>
+    <object name="plantpost"  lifetime="-1000" grounded="1"/>
+    <object name="woodwall" lifetime="-1000"  grounded="1"/>
+    <object name="ringfloor"  lifetime="-1000"  grounded="1"/>
+    <object name="goldcarpet"  lifetime="-1000" grounded="1"/>
+    <object name="goldwindow"  lifetime="-1000" grounded="1"/>
+    <object name="goldoutlet" lifetime="-1000"  grounded="1"/>
+    <object name="goldplantpost"  lifetime="-1000"  grounded="1"/>
+    <object name="roof"  lifetime="-1000"  grounded="1"/>
+    <object name="void" lifetime ="-1000" grounded="1"/>
+    <object name="dummywall" lifetime ="-1000" grounded="1"/>
+    <object name="elevatorin" lifetime ="-1000" grounded="0"/>
+    <object name="marker" lifetime ="1" grounded="1"/>
+    <!--Luis-HUD Objects-->
+    <object name="hud"  limetime ="-1500" grounded="1"/>
+    <object name="logo"  limetime ="-1500" grounded="1"/>
+
+    <!--Luis-Attack Objects-->
+    <object name="bullet" fly="1" lifetime="500"/>
+    <object name="horseattack" fly="1" lifetime="500"/>
+    <object name="bossbullattackleft" fly="1" lifetime="100"/>
+    <object name="bossbullattackright" fly="1" lifetime="100"/>
+    <object name="punch" fly="1" lifetime="100"/>
+    <object name="punchleft" fly="1" lifetime="100"/>
+    <object name="punchanimationleft" fly="1" lifetime="100"/>
+    <object name="punchanimationright" fly="1" lifetime="100"/>
+    <object name="punchanimationfireleft" fly="1" lifetime="100"/>
+    <object name="punchanimationfireright" fly="1" lifetime="100"/>
+    <object name="star" lifetime="1000"/>
+
+    <object name="explodingcrow" frameinterval="100" fly="1"
+      animation="0,1,2"/>
+
+    <!--Alfredo - Gator Animation-->
+    <object name="gatorwalkleft" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorwalkright" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorleft" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorcheer" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorcheerleft" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorcheerhurt" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <object name="gatorcheerhurtleft" frameinterval="100" fly="1"
+    animation="0,1"/>
+    <!--Alfredo- Gorilla mad and death animation-->
+    <object name="madgorillaleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="madgorillaright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="gorillaattackleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="gorillaattackright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="gorillawalkleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="gorillawalkright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="gorilladownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3"/>
+    <object name="gorilladownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3"/>
+    <object name="gorillablockright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="gorillablockleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="deadgorilla" frameinterval="1000" fly="1"
+    animation="0,1,2,3"/>
+
+    <!--Alfredo- Gorilla mad and death animation-->
+    <object name="championgorilla" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="championmadgorillaleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championmadgorillaright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championgorillaattackleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championgorillaattackright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championgorillawalkleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="championgorillawalkright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="championgorilladownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3"/>
+    <object name="championgorilladownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3"/>
+    <object name="championgorillablockright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="championgorillablockleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="championdeadgorilla" frameinterval="1000" fly="1"
+animation="0,1,2"/>
+    
+    <!--Alfredo- Dog Objects-->
+    <object name="dogwalkingleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="dogwalkingright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>   
+    
+    <object name="dogmadleft" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="dogmadright" frameinterval="100" fly="1"
+    animation="0,1,2"/>  
+    
+    <object name="dogdownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+    <object name="dogdownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+    
+    <object name="dogattackleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="dogattackright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    
+    <object name="dogdead" frameinterval="1000" fly="1"
+    animation="0,1,2"/>
+
+    <!--Alfredo- Dog Champion Objects-->
+    <object name="championdog" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="championdogwalkingleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championdogwalkingright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+
+    <object name="championdogmadleft" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="championdogmadright" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+
+    <object name="championdogdownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+    <object name="championdogdownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+
+    <object name="championdogattackleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="championdogattackright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+
+    <object name="championdogdead" frameinterval="1000" fly="1"
+    animation="0,1,2"/>
+    
+    <!--Alfredo- Horse Objects-->
+    <object name="horsewalkleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="horsewalkright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="horsemadleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="horsemadright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="horsedead" frameinterval="1000" fly="1"
+    animation="0,1,2"/>
+    <object name="horserunleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="horserunright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="horsestopleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7,8,9,10,11"/>
+    <object name="horsestopright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7,8,9,10,11"/>
+    
+    <!--Alfredo- Rhino Objects-->
+    <object name="rhinoattackleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7,8,9"/>
+    <object name="rhinoattackright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7,8,9"/>
+    <object name="rhinodownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="rhinodownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4"/>
+    <object name="rhinohurtleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="rhinohurtright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5"/>
+    <object name="rhinorunleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7"/>
+    <object name="rhinorunright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6,7"/>
+    <object name="rhinodead" frameinterval="1000" fly="1"
+    animation="0,1,2"/>
+    <!--Alfredo- Boss Bull Objects-->
+    <object name="bossbullleft" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbullchargeleft" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbullchargeright" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbullhurtleft" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbullhurtright" frameinterval="100" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbulldownedleft" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+    <object name="bossbulldownedright" frameinterval="100" fly="1"
+    animation="0,1,2,3,4,5,6"/>
+    <object name="bossbulldeadleft" frameinterval="1000" fly="1"
+    animation="0,1,2"/>
+    <object name="bossbulldeadright" frameinterval="1000" fly="1"
+    animation="0,1,2"/>   
+    <!--Alfredo- Furniture Objects-->
+    <object name="watercooler" lifetime="-1000" grounded="1"/>
+    <object name="pottedplant" lifetime="-1000" grounded="1"/>
+    <object name="vendingmachine" lifetime="-1000" grounded="1"/>
+    <object name="deskhorizontal" lifetime="-1000" grounded="1"/>
+    
+    <!--Alfredo - Furniture Explosions-->
+    <object name="deskexplosion" frameinterval="100" fly="1" 
+    animation="0,1,2,3,4,5,6,7,8,9"/>
+    <object name="watercoolerexplosion" frameinterval="100" fly="1" 
+    animation="0,1,2,3,4,5,6,7,8,9,10"/>
+    <object name="pottedplantexplosion" frameinterval="100" fly="1" 
+    animation="0,1,2,3,4,5,6,7,8"/>
+    
+  <!--Alfredo- Power Up Objects-->
+    <object name="healthsoda" lifetime="30000"/>
+    <object name="strengthsoda" lifetime="30000"/>
+    
+  <!--Alfredo- Money Bag Object-->
+  <object name="moneybag" lifetime="10000"/>
+  
+  </objects>
+
+  <!-- instances-->
+
+  <instances>
+   
+  </instances>
+  
+  <!-- debugger settings -->
+
+  <debug linenumber="1" header="1">
+    <file select="1" name="debug.txt"/>
+    <debugger select="1"/>
+    <ip select="1" address="127.0.0.1" port="1617"/>
+  </debug>
+
+</settings>

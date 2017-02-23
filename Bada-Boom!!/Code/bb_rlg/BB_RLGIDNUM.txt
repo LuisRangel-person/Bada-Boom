@@ -1,0 +1,43 @@
+These are the ID Numbers for tiles in the RLG, for reference
+Made by Luis Rangel
+Don't do something I wouldn't do!
+
+ID-Corresponding thing
+
+Floor Elements
+0-Empty Space(T)
+1-End Wall(T)
+2-Spawn Zone(O)
+3-Exit Door(O)
+50-Back Window(T)
+
+Objects
+4-Desk Base(O)
+5-Vending Machine(O)
+6-Potted Plant(O)
+7-Water Cooler(O)
+8-Horizontal Desk End(O)
+9-Vertical Desk End(O)
+
+Enemies
+//Tier 1
+90-Dog(O)
+91-Cat(O)
+//Tier 2
+92-Horse(O)
+//Tier 3
+93-Rhino(O)
+//Special Encounters
+94-ALSQ(O)
+//Boss(O)
+95-Open Air(T)
+96-Lower Floor(T)
+
+Bonuses
+100-Auto-Fling(POW-Up: Automatically Fling Enemies on Contact
+//Break Room
+101-Break Room Floor(T)
+102-Catering Table(O)
+//ALSQ-Related
+103-Ring Floor(T)
+104-Wood Wall(T)

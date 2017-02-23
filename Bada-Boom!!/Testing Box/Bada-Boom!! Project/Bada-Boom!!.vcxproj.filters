@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="PixelShader.hlsl">
+      <Filter>Renderer</Filter>
+    </FxCompile>
+    <FxCompile Include="VertexShader.hlsl">
+      <Filter>Renderer</Filter>
+    </FxCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Code\debug.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\IPMgr.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\GameRenderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Renderer.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Shader.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Sprite.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ImageFileNameList.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Timer.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\tinyxml2.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Object.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\ObjMan.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SpriteMan.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Ai.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Crow.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Random.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Abort.cpp">
+      <Filter>Debug Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Window.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BB_RLG.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Gorilla.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\SpriteSheet.cpp">
+      <Filter>Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\HitBox.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Dog.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Horse.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Sound.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\CXBOXController.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\Rhino.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Code\BossBull.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Code\debug.h">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\IPMgr.h">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\GameRenderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Renderer.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Shader.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Sprite.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ImageFileNameList.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Timer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\tinyxml2.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Object.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\ObjMan.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SpriteMan.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Ai.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Crow.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Random.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Abort.h">
+      <Filter>Debug Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\defines.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BB_RLG.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Gorilla.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\SpriteSheet.h">
+      <Filter>Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\HitBox.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Dog.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Horse.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Sound.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\CXBOXController.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\Rhino.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Code\BossBull.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Renderer">
+      <UniqueIdentifier>{d46552d0-adc3-4765-830b-6750017ce6f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{173f66f9-8537-4d53-985b-9033ae5c6e9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug Tools">
+      <UniqueIdentifier>{b7973785-a9b7-4ec6-a3bc-d33ea527a53c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4285cfb5-d521-49f8-a12b-13c947ac4df0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{cd38c74f-dfe0-420d-b872-c97e3fe76917}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="gamesettings.xml">
+      <Filter>Game</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="BB_ICON.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Bada-Boom!!.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
